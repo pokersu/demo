@@ -10,6 +10,7 @@ public class EchoController {
 
     @GetMapping("/ping")
     public String ping() {
+        var test = "test";
         return "pong";
     }
 }
